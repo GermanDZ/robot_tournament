@@ -16,7 +16,7 @@ class Game
   end
   
   def details
-    File.read("#{@path}/readme.markdown")
+    File.read("#{@path}/README.markdown")
   end
   
   def play(player1, player2)
