@@ -17,3 +17,8 @@ Use the following command to create and start a tournament:
     ./bin/create_tournament --name "battle royale" --rounds 5 --duration 10 --game rock_paper_scissors
 
 The idea is to practice and encourage the XP principle of 'release early, release often' by rewarding early competitors with points.
+
+
+Use the following command to start each round after the time reach zero:
+
+    ./bin/kick
